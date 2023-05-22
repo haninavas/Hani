@@ -1,0 +1,240 @@
+html {
+    scroll-behavior: smooth;
+}
+header {
+    width: 100%;
+    background: #6d0e67;
+    display: flex;
+    justify-content: space-between;
+}
+header div.name a img {
+    width: 12%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+header div.right ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+header div.right ul li {
+    list-style: none;
+}
+header div.right ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 550;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header div.right ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(239, 97, 229);
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+}
+header div.right ul li:last-child {
+    margin-right: 0;
+}
+#home {
+    width: 100%;
+}
+#home section.wrapper {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#d40ec7,rgb(234, 234, 234));
+}
+#home section.kod {
+    background: linear-gradient(#ae0da1,rgb(234, 234, 234));
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+#home section.kod div.img_container {
+    width: 100%;
+}
+#home section.kod div.img_container img {
+    margin-left: 7%;
+}
+#home section.kod div.content {
+    margin-top: 5%;
+    margin-right: 9%;
+}
+#home hr.line {
+    display: none;
+}
+#home section.kod div.content h1 {
+    font-weight: 700;
+    font-size: 44px;
+    border-top: 5px dashed #2011e7;
+    margin-top: 5%;
+    border-bottom: 5px dashed #2011c3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#home section.kod div.content h1 span {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#home section.kod div.content blockquote {
+    font-size: 17px;
+    font-weight: 550;
+}
+#personal {
+    width: 100%;
+}
+#personal div.top {
+    display: flex;
+    justify-content: space-between;
+}
+#personal h1 {
+    text-align: center;
+    color: #ef0dba;
+    font-size: 33px;
+    font-weight: 600;
+}
+#personal div.top br.line {
+    border: 2px dashed #000000;
+}
+#personal  div.top div.left {
+    margin-left: 20%;
+}
+#personal div.top div.left img {
+   border-radius: 50% !important;
+   max-width: 190px;
+}
+#personal div.top div.left h2 {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#personal div.top div.right {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#personal div.top div.right h3 {
+    color: #ef0dba;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+#personal div.top div.right p {
+    color: #2d2b2b;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#personal div.top div.right p b {
+    color: #5e5959;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#personal div.top div.right div.bottom {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+#personal div.top div.right div.bottom h4 {
+    color: #c9259d;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+}
+#serexp {
+    background: #ebe9e9;
+    text-align: center;
+    align-items: center;
+}
+#serexp h1 {
+    color: #c9259d;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#serexp div.works {
+    display: flex;
+    justify-content: space-between;
+}
+#serexp div.works div.item {
+    background-color: #ffffff;
+    border-radius: 5%;
+    width: 20%;
+    margin-top: 5%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+}
+#serexp div.works div.item:first-child {
+    margin-left: 20%;
+}
+#serexp div.works div.item:last-child {
+    margin-right: 20%;
+}
+#serexp div.works div.item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7b7676;
+}
+#serexp div.works div.item h4 {
+    color: #7b7676;
+}
+#contacts {
+    width: 100%;
+    background: #02052d;
+}
+#contacts div.contact {
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+}
+#contacts div.contact h3 {
+    font-size: 40px;
+    margin-bottom: 5%;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 10px;
+}
+#contacts div.contact div.col {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#contacts div.contact div.col a {
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+#contacts div.contact div.col a:nth-child(2) {
+    margin-bottom: 5%;
+}
+#contacts div.contact div.col a img:nth-child(2) {
+    margin-bottom: 5px;
+}
+#contacts div.contact div.col a img {
+    width: 8%;
+    color: #ffffff;
+    margin-right: 1%;
+    margin-top: 5px;
+    background: #fff;
+}
+#contacts footer {
+    margin-left: 34%;
+    color: #fff;
+}
+#contacts div.contact div.tol a {
+    background: none;
+}
+#contacts div.contact div.tol a img {
+    width: 3%;
+    border-radius: 24%;
+}
+
