@@ -1,5 +1,7 @@
-html {
+* {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 header {
     width: 100%;
@@ -17,7 +19,7 @@ header div.right ul {
     display: flex;
     justify-content: space-between;
     padding-right: 30px;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 header div.right ul li {
     list-style: none;
@@ -44,10 +46,10 @@ header div.right ul li:last-child {
 #home section.wrapper {
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(#d40ec7,rgb(234, 234, 234));
+    background: linear-gradient(#d40ec7,rgb(255, 255, 255));
 }
 #home section.kod {
-    background: linear-gradient(#ae0da1,rgb(234, 234, 234));
+    background: linear-gradient(#ae0da1,rgb(255, 255, 255));
     display: flex;
     justify-content: space-between;
     margin-left: 20%;
@@ -89,6 +91,7 @@ header div.right ul li:last-child {
 #personal div.top {
     display: flex;
     justify-content: space-between;
+    margin-top: 5%;
 }
 #personal h1 {
     text-align: center;
@@ -146,15 +149,23 @@ header div.right ul li:last-child {
     align-items: center;
 }
 #serexp {
-    background: #ebe9e9;
+    background: #e7e4e4;
     text-align: center;
     align-items: center;
+    margin-top: 4%;
 }
 #serexp h1 {
     color: #c9259d;
     font-size: 30px;
     font-weight: 700;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5px;
+    cursor: pointer;
+}
+#serexp h1:hover {
+    text-decoration: underline;
+    text-decoration-color: #c9259d;
+    text-decoration-thickness: 5px;
 }
 #serexp div.works {
     display: flex;
@@ -166,13 +177,13 @@ header div.right ul li:last-child {
     width: 20%;
     margin-top: 5%;
     margin-right: 3%;
-    margin-bottom: 5%;
+    margin-bottom: 6%;
 }
 #serexp div.works div.item:first-child {
-    margin-left: 20%;
+    margin-left: 10%;
 }
 #serexp div.works div.item:last-child {
-    margin-right: 20%;
+    margin-right: 10%;
 }
 #serexp div.works div.item h3 {
     font-size: 18px;
@@ -181,6 +192,28 @@ header div.right ul li:last-child {
     color: #7b7676;
 }
 #serexp div.works div.item h4 {
+    color: #7b7676;
+}
+#serexp div.bottom {
+    padding-bottom: 5%;
+    align-items: center;
+    align-self: center;
+}
+#serexp div.bottom div.blloes h1 {
+    padding-bottom: 5px;
+}
+#serexp div.bottom div.item {
+    background-color: #ffffff;
+    border-radius: 5%;
+    width: 20%;
+    margin-top: 5%;
+    margin-right: 3%;
+    margin-left: 38%;
+}
+#serexp div.bottom div.item h3 {
+    color: #7b7676;
+}
+#serexp div.bottom div.item h4 {
     color: #7b7676;
 }
 #contacts {
@@ -212,6 +245,7 @@ header div.right ul li:last-child {
     font-size: 18px;
     font-weight: 600;
     text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #contacts div.contact div.col a:nth-child(2) {
     margin-bottom: 5%;
@@ -229,6 +263,7 @@ header div.right ul li:last-child {
 #contacts footer {
     margin-left: 34%;
     color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #contacts div.contact div.tol a {
     background: none;
@@ -237,4 +272,5 @@ header div.right ul li:last-child {
     width: 3%;
     border-radius: 24%;
 }
-
+@media all and (max-width: 980px) {
+}
